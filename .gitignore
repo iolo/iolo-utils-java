@@ -1,0 +1,10 @@
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.pyc
+.gradle
+.idea
+build/
+out/

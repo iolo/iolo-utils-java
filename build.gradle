@@ -1,0 +1,16 @@
+plugins {
+    id "java"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+
+dependencies {
+    compileOnly "org.projectlombok:lombok:1.16.18"
+    compileOnly "org.jetbrains:annotations:15.0"
+    testCompile "junit:junit:4.12"
+    testCompile "org.mockito:mockito-all:1.10.19"
+}
